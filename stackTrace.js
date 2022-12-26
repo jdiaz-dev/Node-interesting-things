@@ -4,3 +4,4 @@ function fn(n = 200) {
   fn(n - 1);
 }
 fn();
+throw new Error('feo')
